@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1f10b1b.css",
-    "main.js": "/static/js/main.e9b1b627.js",
-    "static/media/video.mp4": "/static/media/video.910e8a452197d2018756.mp4",
-    "static/media/Logo.png": "/static/media/Logo.5a8f8c2fd64c8c422af8.png",
-    "static/media/companys.jpg": "/static/media/companys.9a17a102bb7bf04e62d3.jpg",
-    "static/media/laptops.jpeg": "/static/media/laptops.3cfde66f87f93fbe1c7b.jpeg",
-    "index.html": "/index.html",
-    "main.d1f10b1b.css.map": "/static/css/main.d1f10b1b.css.map",
-    "main.e9b1b627.js.map": "/static/js/main.e9b1b627.js.map"
+    "main.css": "/egy-technologys/static/css/main.d1f10b1b.css",
+    "main.js": "/egy-technologys/static/js/main.f262230e.js",
+    "static/media/video.mp4": "/egy-technologys/static/media/video.910e8a452197d2018756.mp4",
+    "static/media/Logo.png": "/egy-technologys/static/media/Logo.5a8f8c2fd64c8c422af8.png",
+    "static/media/companys.jpg": "/egy-technologys/static/media/companys.9a17a102bb7bf04e62d3.jpg",
+    "static/media/laptops.jpeg": "/egy-technologys/static/media/laptops.3cfde66f87f93fbe1c7b.jpeg",
+    "index.html": "/egy-technologys/index.html",
+    "main.d1f10b1b.css.map": "/egy-technologys/static/css/main.d1f10b1b.css.map",
+    "main.f262230e.js.map": "/egy-technologys/static/js/main.f262230e.js.map"
   },
   "entrypoints": [
     "static/css/main.d1f10b1b.css",
-    "static/js/main.e9b1b627.js"
+    "static/js/main.f262230e.js"
   ]
 }
