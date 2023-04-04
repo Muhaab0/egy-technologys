@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/egy-technologys/static/css/main.d1f10b1b.css",
-    "main.js": "/egy-technologys/static/js/main.94bd9166.js",
+    "main.css": "/egy-technologys/static/css/main.3be399c5.css",
+    "main.js": "/egy-technologys/static/js/main.eedc924c.js",
     "static/media/video.mp4": "/egy-technologys/static/media/video.910e8a452197d2018756.mp4",
     "static/media/Logo.png": "/egy-technologys/static/media/Logo.5a8f8c2fd64c8c422af8.png",
     "static/media/companys.jpg": "/egy-technologys/static/media/companys.9a17a102bb7bf04e62d3.jpg",
     "static/media/laptops.jpeg": "/egy-technologys/static/media/laptops.3cfde66f87f93fbe1c7b.jpeg",
     "index.html": "/egy-technologys/index.html",
-    "main.d1f10b1b.css.map": "/egy-technologys/static/css/main.d1f10b1b.css.map",
-    "main.94bd9166.js.map": "/egy-technologys/static/js/main.94bd9166.js.map"
+    "main.3be399c5.css.map": "/egy-technologys/static/css/main.3be399c5.css.map",
+    "main.eedc924c.js.map": "/egy-technologys/static/js/main.eedc924c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f10b1b.css",
-    "static/js/main.94bd9166.js"
+    "static/css/main.3be399c5.css",
+    "static/js/main.eedc924c.js"
   ]
 }
