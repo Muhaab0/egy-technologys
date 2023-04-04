@@ -1,0 +1,115 @@
+.ServicesContainer {
+    background-color: #c7ddb5;
+    padding: 60px;
+    text-align: center;
+}
+
+.serviceBoxes {
+    gap: 40px;
+}
+
+.serviceOverFllow {
+    padding-bottom: 50px;
+}
+
+.serviceOverFllow::-webkit-scrollbar {
+    width:1px;
+    background:var(---section-color);
+  }
+  .serviceOverFllow::-webkit-scrollbar-thumb  {
+    background:var(---section-color);
+    width: 10px;
+  }
+
+.serviceBox {
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.serviceHeader {
+    padding: 20px;
+}
+
+.serviceButton {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.ServiceButtonContainer {
+    padding: 20px 0;
+    color: white;
+}
+
+.serviceDisc {
+    line-height: 1.5;
+}
+
+.serviceHeader {
+    color: #21B6A8;
+}
+@media (max-width:1200px) {
+    .serviceBox {
+        width: 30%;
+    }
+}
+
+
+@media (max-width:930px) {
+    .serviceOverFllow {
+        overflow: initial;
+        padding: 0!important;
+    }
+
+    .serviceBoxes  {
+        flex-wrap: wrap;
+    }
+
+    .serviceBox {
+        width: 40%;
+    }
+    .serviceBoxes  {
+        width: 100%;
+        gap: 40px;
+    }
+    .ServicesContainer {
+        padding: 60px 30px;
+    }
+}
+
+@media (max-width:650px) {
+    .serviceBoxes  {
+        flex-direction: column;
+    }
+    .serviceBox {
+        width: 55%;
+    }
+    .ServicesContainer {
+        padding:60px 10px;
+    }
+}
+
+@media (max-width:530px) {
+    .serviceBox {
+        width: 85%!important;
+    }
+}
+
+@media (max-width:800px) {
+    
+    .serviceBoxes {
+        flex-direction: column;
+    }
+
+    .serviceBox {
+        margin: auto;
+        width: 75%;
+    }
+    
+}

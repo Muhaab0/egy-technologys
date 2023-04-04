@@ -1,0 +1,108 @@
+.ContactContainer {
+    background-color: #09b548;
+    padding: 50px 110px;
+    margin: 50px 0;
+}
+.ContactContainer.Mini {
+    background-color: var(---primary-color);
+    padding: 50px 110px;
+    margin: 50px 0;
+}
+
+.ContactContainer h2,.ContactContainer p {
+    text-align: center;
+
+}
+
+.ContactContainer h2 {
+    color: var(---secondary-color);
+    font-size: 30px;
+}
+
+.companyInfo {
+    color: white;
+}
+
+.companyInfo p {
+    text-align: start;
+}
+
+.ContactContainer p {
+    color: white;
+}
+
+.ContactFormFlex {
+    flex-wrap: wrap;
+}
+
+.ContactForm input:not(input[type=submit]),select, textarea {
+    padding:15px 7px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 16px;
+}
+
+
+input[type=submit] {
+    padding: 15px 30px;
+    background-color: var(---secondary-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ContactForm input:not(input[type=submit]),select, textarea:focus {
+    outline: none;
+}
+
+.ContactContainer.Mini  h2 {
+    text-align: start!important;
+}
+
+.ContactContainer.Mini {
+    padding: 0!important;
+    margin-bottom: 50px!important;
+}
+
+.ContactContainer.Mini .ContactForm {
+    flex-wrap: wrap;
+}
+
+@media (max-width:800px) {
+    .ContactContainer {
+        flex-direction: column;
+    }
+    .ContactForm {
+        flex-direction: column;
+    }
+    .ContactContainer.Mini {
+        margin: 0;
+        margin-bottom: 25px!important;
+    }
+}
+
+@media (max-width:750px) {
+    .contactFlex {
+        flex-direction: column;
+    }
+    .companyInfo {
+        text-align: center;
+    }
+    .MailDetails,.companyLocation  ,.companyPhone   {
+        justify-content: center;
+    }
+    .companyInfo h3 {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width:650px) {
+    .ContactContainer {
+        padding:  40px!important;
+    }
+}

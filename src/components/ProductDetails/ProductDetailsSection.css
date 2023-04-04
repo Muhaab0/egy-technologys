@@ -1,0 +1,22 @@
+.productDetailsContainer {
+    padding: 80px;
+    background-color: var(---section-color);
+    color: var(---navbar-color);
+}
+
+.productImgContainerText {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.productDetails {
+    color: var(---navbar-color);
+}
+
+
+.productDetails h2 {
+    text-align: center;
+    padding: 20px;
+    color: var(---secondary-color);
+}
+

@@ -1,0 +1,127 @@
+.heroContainer video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -96px;
+}
+.heroVideo {
+    overflow: hidden;
+    height: 70vh;
+}
+
+.heroVideo::before {
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+        background-color: #0080003b;
+        z-index: 55;
+}
+
+.coverSubContainer {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    z-index: 555;
+}
+
+.heroContainer {
+    position: relative; 
+}
+
+.heroTextContainer {
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 5rem;
+    z-index: 55;
+}
+
+.heroTopText {
+    font-size: 35px;
+}
+
+.heroDownText {
+    margin-top: 15px;
+    width: 80%;
+}
+
+.heroButton {
+    margin-top: 20px;
+    width: 30%;
+}
+
+.detailsBox {
+    padding: 25px 80px;
+    gap: 200px ;
+}
+
+
+@media (max-width:850px) {
+    .heroTextContainer {
+        top: 20%;
+    }
+    .heroContainer video {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:700px) {
+    .heroTextContainer h2 {
+        font-size: 28px;
+    }
+
+    .heroButton  {
+        padding: 10px!important;
+    }
+}
+
+@media (max-width:930px) {
+    .detailsBox  {
+        gap:85px
+    }
+    .heroVideo {
+        height: auto;
+    }
+    .heroVideo::before {
+        height: 99%
+        }
+}
+
+
+@media (max-width:650px) {
+    .detailsBox {
+        gap:20px;
+        flex-direction: column;
+    }
+
+    .heroTextContainer {
+        top: 10%;
+        left:1.5rem
+    }
+    .heroTextContainer a {
+        padding: 0;
+    }
+
+    .heroContainer video {
+        width: 130%;
+        margin-top: -75px;
+    }
+    .heroButton  {
+        padding: 8px!important;
+    }
+    .coverSubContainer {
+        top: 80%;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .heroContainer video {
+        left: -75px;
+        width: 160%;
+    }
+}
+

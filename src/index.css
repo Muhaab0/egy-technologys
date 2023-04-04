@@ -1,0 +1,297 @@
+:root {
+  ---primary-color:#116530;
+  ---section-color:#c7ddb5;
+  ---secondary-color:#21B6A8;
+  ---navbar-color:#0b534c;
+}
+  html {
+    overflow-x: hidden;
+  }
+
+
+  * {   
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: 'Poppins', sans-serif;
+
+  }
+   body {
+    position: relative;
+    overscroll-behavior: none;
+    scroll-behavior: auto;
+    overflow-x: hidden;
+  
+  }
+
+
+  .ConfirmationMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 555555555555;
+    background-color: var(---navbar-color);
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: none;
+  }
+  
+  .ConfirmationMessage button {
+    padding: 5px 10px;
+    background-color: var(---secondary-color);
+    color: white;
+    border: none;
+    margin:  auto;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .ConfirmationClose {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+  }
+    .ConfirmationMessage h2 {
+      margin-bottom: 15px;
+    }
+
+    @media (max-width:800px) {
+        .ConfirmationMessage h2 {
+          width: 225px;
+        }
+        .ConfirmationMessage {
+          padding: 25px 50px;
+        }
+      }
+  
+
+    @media (max-width:400px) {
+      .ConfirmationMessage h2 {
+        width: 150px;
+      }
+      .ConfirmationMessage {
+        padding: 25px 30px;
+      }
+    }
+
+
+
+.loading {
+  cursor: not-allowed!important;
+}
+
+.err {
+  font-weight: 200;
+  font-size: 14px;
+  color: var(--secondary-color-red);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.wait {
+  font-weight: 200;
+  color: var(--gray-color1);
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  .main-padding {
+    padding: 0 20px;
+  }
+
+  .btn {
+    background-color: #21B6A8;
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  
+  
+  ul {
+    list-style-type: none!important;
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .flex {
+    display: flex;
+  }
+  
+  .col {
+    flex-direction: column;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+  
+  .a-center {
+    align-items: center;
+  }
+  
+  
+  .j-center {
+    justify-content: center;
+  }
+  
+  .j-between {
+    justify-content: space-between;
+  }
+  .j-evenly {
+    justify-content: space-evenly;
+  }
+
+  .j-around {
+    justify-content: space-around;
+  }
+
+  .j-end {
+    justify-content: flex-end;
+  }
+  
+  .gap {
+    gap: 50px;
+  }
+  
+  .gap-half {
+    gap: 25px;
+  }
+  
+  .gap-small {
+    gap:10px
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .half-width {
+    height: 80vh;
+  }
+  
+  .black {
+    background-color: #222222;
+  }
+  
+   .none {
+    display: none;
+   }
+  
+
+  
+   .block {
+    display: block;
+   }
+  
+  
+   /* ::-webkit-scrollbar {
+    width:5px;
+    background:white;
+  }
+  ::-webkit-scrollbar-thumb  {
+    background:#FFCB00;;
+  
+  } */
+
+  .Header {
+    font-size: 30px;
+    text-align: center;
+    color: var(---secondary-color);
+    margin-bottom: 25px;
+  }
+
+  .SubHeader {
+    font-size: 25px;
+    text-align: center;
+    color: var(---secondary-color);
+    margin-bottom: 25px;
+  }
+
+
+
+
+.paginationBtns {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+    z-index: 555;
+}
+
+.paginationBtns li a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 1px var(--main-color);
+  color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.disabled a{
+  background-color: var(--gray-color);
+  border-color:var(--gray-color)!important ;
+  color: var(--gray-color)!important;
+  cursor: no-drop;
+  display: none!important;
+}
+.previous a, .next  a {
+  display: block;
+  width: 20px!important;
+  height: 20px!important;
+  color: var(--main-color)!important;
+}
+
+.paginationActive a {
+  background-color: var(--main-color);
+}
+
+
+.paginationIcon {
+  font-size: 18px!important;
+  font-weight: 800;
+}

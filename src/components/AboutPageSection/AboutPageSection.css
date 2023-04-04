@@ -1,0 +1,61 @@
+.aboutContainer {
+    padding: 100px 100px;
+    background-color: var(---section-color);
+    color: var(---navbar-color);
+}
+
+.aboutCompany {
+    margin-bottom: 40px;
+}
+
+.aboutCompanyIMg img {
+    width: 550px;
+
+}
+
+.aboutCompanyText h2 {
+    color: var(---secondary-color);
+}
+.aboutCompanyText {
+    margin: auto;
+    width: 80%;
+}
+
+.aboutCompanyText h2 {
+    text-align: center;
+}
+
+.aboutCompanyText p {
+    line-height: 1.6;
+
+
+}
+
+.aboutMissionContainer h2 {
+    font-size: 30px;
+    color: var(---secondary-color);
+}
+
+@media (max-width:650px) {
+    .aboutContainer {
+        padding: 80px 40px!important;
+    }
+
+    .aboutContainer p {
+        line-height: 1.7!important;
+    }
+    .aboutCompanyIMg img {
+        max-width: 100%;
+    }    
+}
+
+@media (max-width:1050px) {
+    .aboutContainer {
+        padding: 60px 60px!important;
+    }
+
+    .aboutCompany {
+        flex-direction: column;
+        text-align: center;
+    }
+}

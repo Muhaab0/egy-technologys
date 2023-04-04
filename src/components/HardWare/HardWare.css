@@ -1,0 +1,52 @@
+.hardContainer {
+    background-color: var(---section-color);
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+
+.hardText {
+    margin: 20px 0;
+}
+
+.hardNumber {
+    margin-bottom: 15px;
+    color: var(---navbar-color);
+}
+
+
+.hardBottun {
+    padding-top: 30px;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    border: solid 2px white;
+}
+
+.hardBoxes {
+    flex-wrap: wrap;
+}
+
+@media (max-width:550px) {
+    .hardBoxes  {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:900px) {
+    
+        .hardBottun {
+            width: 40%;
+            padding: 10px;
+        }
+        .hardContainer {
+            padding: 40px;
+        }
+    
+}
+
+@media (max-width:400px) {
+    .hardBottun {
+        font-size: 14px;
+    }
+}

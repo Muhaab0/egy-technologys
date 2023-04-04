@@ -1,0 +1,43 @@
+.serviceDetailTitle {
+    font-size: 25px;
+    text-align: center;
+    color: var( ---secondary-color);
+    padding: 80px 0;
+}
+
+.ServiceDetail {
+    background-color:var(---section-color) ;
+    color: var(---navbar-color);
+}
+
+.serviceDetailDescription {
+    padding: 0px 80px 80px;
+    line-height: 1.6;
+}
+
+.serviceDetailDescription h3 {
+    color: var(---primary-color);
+}
+
+.serviceDetailDescription h4 {
+    color: var(---navbar-color);
+}
+
+@media (max-width:800px) {
+    .serviceDetailTitle {
+        padding: 80px 30px;
+    }
+    .serviceDetailDescription {
+        line-height: 1.7;
+    }
+}
+
+@media (max-width:650px) {
+    .serviceDetailDescription {
+        padding:  40px!important;
+    }
+
+    .serviceDetailDescription  {
+        line-height: 1.7!important;
+    }
+}

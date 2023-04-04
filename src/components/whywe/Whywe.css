@@ -1,0 +1,22 @@
+.whyweContainer {
+    padding: 80px;
+    background-color: var(---section-color);
+    color: var(---navbar-color);
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.whyweContainer h2 {
+    color: var( ---secondary-color);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.whyweContainer h3 {
+    color: var(---primary-color);
+}
+
+.whyweContainer h4 {
+    color: var(---navbar-color);
+}

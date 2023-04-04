@@ -1,0 +1,29 @@
+.dataSecurityDetailsContainer {
+    padding: 80px;
+    background-color: var(---section-color);
+    color: var(---navbar-color);
+}
+
+.dataSecurityDetailsTitle {
+    text-align: center;
+    color: var( ---secondary-color);
+    font-size: 25px;
+}
+
+.dataSecurityDetailsContainer h3 {
+    color: var(---primary-color);
+}
+
+.dataSecurityDetailsContainer h4 {
+    color: var(---navbar-color);
+}
+
+@media (max-width:600px) {
+    .dataSecurityDetailsContainer {
+        padding: 80px 40px!important;
+    }
+
+    .dataSecurityDetailsContainer p {
+        line-height: 1.7!important;
+    }
+}

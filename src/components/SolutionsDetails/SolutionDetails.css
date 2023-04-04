@@ -1,0 +1,30 @@
+.solutionsContainer {
+    padding: 80px;
+    background-color: var(---section-color);
+    color: var(---navbar-color);
+}
+
+.solutionsContainer h2 {
+    text-align: center;
+    color: var( ---secondary-color);
+    font-size: 25px;
+}
+
+
+.solutionsContainer h3 {
+    color: var(---primary-color);
+}
+
+.solutionsContainer h4 {
+    color: var(---navbar-color);
+}
+
+@media (max-width:600px) {
+    .solutionsContainer {
+        padding: 80px 40px!important;
+    }
+
+    .solutionsContainer p {
+        line-height: 1.7!important;
+    }
+}
